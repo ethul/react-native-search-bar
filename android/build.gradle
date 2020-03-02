@@ -11,6 +11,10 @@ android {
         sourceCompatibility = '1.8'
         targetCompatibility = '1.8'
     }
+
+    defaultConfig {
+        minSdkVersion 16
+    }
 }
 
 dependencies {
